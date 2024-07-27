@@ -33,7 +33,7 @@ let ball = {
     y : boardHeight/2,
     width: ballWidth,
     height: ballHeight,
-    velocityX : 3,
+    velocityX : 10,
     velocityY : 10
 }
 
@@ -76,7 +76,7 @@ function update() {
     context.fillRect(player2.x, player2.y, playerWidth, playerHeight);
 
     // ball
-    context.fillStyle = "white";
+    context.fillStyle = "blue";
     ball.x += ball.velocityX;
     ball.y += ball.velocityY;
     context.fillRect(ball.x, ball.y, ballWidth, ballHeight);
