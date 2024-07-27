@@ -14,7 +14,7 @@ let player1 = {
     y : boardHeight/2,
     width: playerWidth,
     height: playerHeight,
-    velocityY : 0
+    velocityY : 7
 }
 
 let player2 = {
@@ -22,7 +22,7 @@ let player2 = {
     y : boardHeight/2,
     width: playerWidth,
     height: playerHeight,
-    velocityY : 0
+    velocityY : 7
 }
 
 //ball
@@ -164,7 +164,7 @@ function resetGame(direction) {
         y : boardHeight/2,
         width: ballWidth,
         height: ballHeight,
-        velocityX : direction,
-        velocityY : 73
+        velocityX : direction*ball.velocityX,
+        velocityY : ball.velocityY
     }
 }
