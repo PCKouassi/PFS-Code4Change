@@ -11,7 +11,7 @@ html, body
 	font-size: 14px;
 	font-weight: 400;
 	background: #b68b6c;
-	color: #fff;
+	color: #c24458;
 }
 .container {
 	width: 1100px;
@@ -42,7 +42,7 @@ html, body
 }
 
 .span-col {
-	color: #ffbf35;
+	color: #c24458;
 }
 
 nav {
@@ -86,7 +86,7 @@ nav a {
 	border-radius: 50%;
 	text-align: center;
 	border: 2px solid #ffbf35;
-	color: #ffbf35;
+	color: #c24458;
 	margin-left: 10px;
 	height: 50px;
 	width: 50px;
@@ -121,7 +121,7 @@ nav a {
 	font-size: 35px;
 	text-align: center;
 	margin-bottom: 50px;
-	color: #ffbf35;
+	color: #c24458;
 }
 .about-img {
 	width: 100%;
