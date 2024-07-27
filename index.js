@@ -26,15 +26,15 @@ let player2 = {
 }
 
 //ball
-let ballWidth = 10;
-let ballHeight = 10;
+let ballWidth = 20;
+let ballHeight = 20;
 let ball = {
     x : boardWidth/2,
     y : boardHeight/2,
     width: ballWidth,
     height: ballHeight,
-    velocityX : 37,
-    velocityY : 73
+    velocityX : 15,
+    velocityY : 15
 }
 
 let player1Score = 0;
