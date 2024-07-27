@@ -33,8 +33,8 @@ let ball = {
     y : boardHeight/2,
     width: ballWidth,
     height: ballHeight,
-    velocityX : 1,
-    velocityY : 2
+    velocityX : 17,
+    velocityY : 20
 }
 
 let player1Score = 0;
