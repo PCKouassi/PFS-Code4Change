@@ -26,8 +26,8 @@ let player2 = {
 }
 
 //ball
-let ballWidth = 10;
-let ballHeight = 10;
+let ballWidth = 2;
+let ballHeight = 3;
 let ball = {
     x : boardWidth/2,
     y : boardHeight/2,
