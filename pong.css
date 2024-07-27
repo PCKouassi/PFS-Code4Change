@@ -3,7 +3,7 @@ body {
 }
 
 #board {
-    background-color: pink;
+    background-color: white;
     border-top: 5px solid pink;
     border-bottom: 5px solid pink;
 }
