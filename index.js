@@ -33,8 +33,8 @@ let ball = {
     y : boardHeight/2,
     width: ballWidth,
     height: ballHeight,
-    velocityX : 1,
-    velocityY : 2
+    velocityX : 3,
+    velocityY : 10
 }
 
 let player1Score = 0;
@@ -136,18 +136,18 @@ function outOfBounds(yPosition) {
 function movePlayer(e) {
     //player1
     if (e.code == "KeyW") {
-        player1.velocityY = -3;
+        player1.velocityY = -5;
     }
     else if (e.code == "KeyS") {
-        player1.velocityY = 3;
+        player1.velocityY = 5;
     }
 
     //player2
     if (e.code == "ArrowUp") {
-        player2.velocityY = -3;
+        player2.velocityY = -5;
     }
     else if (e.code == "ArrowDown") {
-        player2.velocityY = 3;
+        player2.velocityY = 5;
     }
 }
 
