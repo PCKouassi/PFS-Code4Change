@@ -47,7 +47,7 @@ window.onload = function() {
     context = board.getContext("2d"); //used for drawing on the board
 
     //draw initial player1
-    context.fillStyle="skyblue";
+    context.fillStyle="pink";
     context.fillRect(player1.x, player1.y, playerWidth, playerHeight);
 
     requestAnimationFrame(update);
@@ -59,7 +59,7 @@ function update() {
     context.clearRect(0, 0, board.width, board.height);
 
     // player1
-    context.fillStyle = "skyblue";
+    context.fillStyle = "pink";
     let nextPlayer1Y = player1.y + player1.velocityY;
     if (!outOfBounds(nextPlayer1Y)) {
         player1.y = nextPlayer1Y;
@@ -76,7 +76,7 @@ function update() {
     context.fillRect(player2.x, player2.y, playerWidth, playerHeight);
 
     // ball
-    context.fillStyle = "orange";
+    context.fillStyle = "purple";
     ball.x += ball.velocityX;
     ball.y += ball.velocityY;
     context.fillRect(ball.x, ball.y, ballWidth, ballHeight);
