@@ -76,7 +76,7 @@ function update() {
     context.fillRect(player2.x, player2.y, playerWidth, playerHeight);
 
     // ball
-    context.fillStyle = "orange";
+    context.fillStyle = "red";
     ball.x += ball.velocityX;
     ball.y += ball.velocityY;
     context.fillRect(ball.x, ball.y, ballWidth, ballHeight);
