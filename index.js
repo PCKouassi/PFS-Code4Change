@@ -136,18 +136,18 @@ function outOfBounds(yPosition) {
 function movePlayer(e) {
     //player1
     if (e.code == "KeyW") {
-        player1.velocityY = -3;
+        player1.velocityY = -11;
     }
     else if (e.code == "KeyS") {
-        player1.velocityY = 3;
+        player1.velocityY = 11;
     }
 
     //player2
     if (e.code == "ArrowUp") {
-        player2.velocityY = -3;
+        player2.velocityY = -11;
     }
     else if (e.code == "ArrowDown") {
-        player2.velocityY = 3;
+        player2.velocityY = 11;
     }
 }
 
