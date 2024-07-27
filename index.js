@@ -165,6 +165,6 @@ function resetGame(direction) {
         width: ballWidth,
         height: ballHeight,
         velocityX : direction,
-        velocityY : 2
+        velocityY : 73
     }
 }
