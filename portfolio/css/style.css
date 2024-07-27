@@ -19,7 +19,7 @@ html, body
 	display: table;
 }
 .width-33 {
-	width: 33%;
+	width: 50%;
 	float: left;
 }
 .width-66 {
@@ -97,7 +97,7 @@ nav a {
 
 /*****Main BANNER IMAGE*****/
 .main-panel img {
-	margin-top: 10%;
+	margin-top: 20%;
 	width: 100%;
 	margin-left: 10%;
 }
@@ -125,7 +125,7 @@ nav a {
 }
 .about-img {
 	width: 100%;
-	padding: 0px 50px;
+	padding: 5px 50px;
 	margin-top: 20px;
 }
 .about-us {
@@ -135,7 +135,7 @@ nav a {
 }
 .about-us p {
 	font-size: 16px;
-	margin-top: 15px;
+	margin-top: 30px;
 	line-height: 27px;
 }
 table {
